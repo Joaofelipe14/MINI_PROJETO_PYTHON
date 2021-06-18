@@ -1,0 +1,31 @@
+p1=input('Telefonou para a vítima ? S/N: ')
+p2=input('Esteve no local do crime? S/N: ')
+p3=input( 'Mora perto da vítima? S/N: ')
+p4=input('Devia dinheiro para a vítima ? S/N: ')
+p5=input(' Já brigou alguma vez com a vítima ? S/N: ')
+
+sim=0
+if p2 =='S':
+     sim = sim +1
+if  p2 == 'S':
+     sim = sim +1
+if  p3 == 'S':
+     sim = sim +1
+if  p4 == 'S':
+     sim = sim +1
+if  p5 == 'S':
+     sim = sim +1
+
+if (sim ==2):
+     print('Suspeita')
+elif (3 <= sim and sim <=4) :
+          print('Cúmplice')
+elif (sim ==5):
+           print('Assasino')
+else:
+     print('Inocente')
+                
+           
+
+
+     
