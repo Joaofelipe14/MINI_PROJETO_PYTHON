@@ -1,0 +1,14 @@
+###Calculadora
+n1= float(input('Digite o numero 1: '))
+n2= float(input('Digite o numero 2: '))
+operacao=input('Digite a opreção desejada:  ')
+
+if operacao == '+':
+     print(' A soma dos numeros é:  ' , n1+n2)
+if operacao == '-':
+     print(' A subtração dos numeros é: ' , n1-n2)
+if operacao == '*':
+     print(' A multiplicação dos numeros é: ', n1*n2)
+if operacao == '/':
+     print(' A divisao dos numeros é: ',  n1/n2)
+     
