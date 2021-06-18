@@ -1,0 +1,8 @@
+usuario=input('Digite seu usuario: ')
+senha=input('Digite sua senha: ')
+
+while usuario == senha:
+     print('O usuario nao pode ser igual a senha!!!!!!')
+     senha= input('Digite uma nova senha: ')
+
+print('Acesso liberado')
